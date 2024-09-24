@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 130px;
+    width: 100%;
+}
+
+section {
+    min-height: 400px;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+
+}
+
+footer {
+    height: 130px;
+    width: 100%;
+    
+
+}
+
+.frmlogin{
+
+    border-radius: 5px;
+    background-color:aliceblue;
+    width: 30%;
+   
+}
