@@ -1,7 +1,7 @@
 from flask import Flask
 import pymongo
 from flask_cors import CORS
-app = Flask(__name__) #crear objeto de tipo flask
+app = Flask(__name__) #crear objeto flask
 
 CORS(app)
 
@@ -18,8 +18,8 @@ productos = baseDatos['Productos']
 usuarios = baseDatos['Usuarios']
 
 if __name__=="__main__":
-    from controlador.productoController import *
-    from controlador.usuarioController import * 
+    from controller.productoController import *
+    from controller.usuarioController import * 
     app.run(port=4000,debug=True)
     
     
